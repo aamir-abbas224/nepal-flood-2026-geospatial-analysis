@@ -1,0 +1,10 @@
+id,name,name_en,name_ne,status,amenity,operator,operator_type,phone,addr_full,addr_city,source,adm0_pcode,adm0_name,adm1_pcode,adm1_name,adm2_pcode,adm2_name,adm3_pcode,adm3_name,adm4_pcode,adm4_name,name_latin,geometry_type,coordinates
+node/2857847365,Tourist Police,,,Destroyed,police,,,,,,GPS,NPL,Nepal,NP03,Bagmati,NP0329,Rasuwa,NP0329402,Gosaikunda,,,Tourist Police,Point,"[85.337056, 28.1637681]"
+node/8947843318,Devighat Police Chowki,,,Standing,police,,,,,,,NPL,Nepal,NP03,Bagmati,NP0328,Nuwakot,NP0328301,Bidur,,,Devighat Police Chowki,Point,"[85.1127869, 27.8623197]"
+node/6511401786,,,,Standing,police,,,,,,,NPL,Nepal,NP03,Bagmati,NP0329,Rasuwa,NP0329401,Aamachhodingmo,,,,Point,"[85.2828441, 28.1133491]"
+node/14128585218,Police Post Syapru Besi,,,Destroyed,police,नेपाल प्रहरी,,,,,,NPL,Nepal,NP03,Bagmati,NP0329,Rasuwa,NP0329402,Gosaikunda,,,Police Post Syapru Besi,Point,"[85.3418735, 28.165547]"
+node/9519235220,Temporary Police Post Aadhamghat,,,Standing,police,,,,,,,NPL,Nepal,NP03,Bagmati,NP0330,Dhading,NP0330410,Galchhi,,,Temporary Police Post Aadhamghat,Point,"[84.9432067, 27.8063716]"
+node/6166941586,,Betrawati check post बेत्रावती सुरक्षा जाँच,,Standing,police,,,,,,,NPL,Nepal,NP03,Bagmati,NP0328,Nuwakot,NP0328301,Bidur,,,Betrawati check post बेत्रावती सुरक्षा जाँच,Point,"[85.1856149, 27.9747652]"
+node/9510265542,Area Police Office,,,Standing,police,,,,,,,NPL,Nepal,NP03,Bagmati,NP0330,Dhading,NP0330408,Benighat Rorang,,,Area Police Office,Point,"[84.781588, 27.8118103]"
+node/9519237017,Traffic Police Office Muglin,,,Standing,police,,,,,,,NPL,Nepal,NP03,Bagmati,NP0335,Chitawan,NP0335401,Ichchha Kamana,,,Traffic Police Office Muglin,Point,"[84.563212, 27.8573336]"
+way/342785548,"Ilaka Prahari Karalaya, Mugling",,,Standing,police,,,,,,,NPL,Nepal,NP03,Bagmati,NP0335,Chitawan,NP0335401,Ichchha Kamana,,,"Ilaka Prahari Karalaya, Mugling",Polygon,"[[[84.5588991, 27.8553126], [84.5589724, 27.8552448], [84.559014, 27.8552799], [84.5589734, 27.8553175], [84.5590545, 27.8553859], [84.5591036, 27.8553405], [84.5591464, 27.8553767], [84.5590647, 27.8554524], [84.5588991, 27.8553126]]]"
