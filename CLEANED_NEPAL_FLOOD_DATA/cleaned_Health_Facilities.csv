@@ -1,0 +1,6 @@
+name,status,amenity,adm0_pcode,adm0_name,adm1_pcode,adm1_name,adm2_pcode,adm2_name,adm3_pcode,adm3_name,geometry_type,coordinates
+Rajmarga Samudayak Hospital,Standing,hospital,NPL,Nepal,NP03,Bagmati,NP0330,Dhading,NP0330408,Benighat Rorang,Point,"[84.8334747, 27.8111146]"
+Benighat Health Cllinic,Standing,clinic,NPL,Nepal,NP03,Bagmati,NP0330,Dhading,NP0330408,Benighat Rorang,Point,"[84.7800149, 27.8106241]"
+Bihani Pharmacy,Standing,pharmacy,NPL,Nepal,NP03,Bagmati,NP0330,Dhading,NP0330408,Benighat Rorang,Point,"[84.7043051, 27.8056745]"
+Highway Healthcare Pharma,Standing,pharmacy,NPL,Nepal,NP03,Bagmati,NP0330,Dhading,NP0330408,Benighat Rorang,Point,"[84.8278453, 27.8136943]"
+"प्राथमिक स्वस्थ केन्द्र, गजुरी",Standing,hospital,NPL,Nepal,NP03,Bagmati,NP0330,Dhading,NP0330409,Gajuri,Polygon,"[[[84.8798078, 27.8065696], [84.8798347, 27.8065245], [84.8799312, 27.8063383], [84.8799902, 27.8062529], [84.8800345, 27.8062398], [84.880119, 27.806241], [84.8802209, 27.8062386], [84.8802531, 27.806254], [84.8802383, 27.8062956], [84.8802102, 27.8063371], [84.8801444, 27.8064948], [84.8800465, 27.8066728], [84.8798159, 27.8065874], [84.8798078, 27.8065696]]]"
