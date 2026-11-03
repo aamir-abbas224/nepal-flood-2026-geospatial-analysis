@@ -31,6 +31,8 @@ Due to limitation in the **dataset**, it was later reduced to exploratory analys
 
 The project is organized into three main directories and three supporting files.
 
+## Project Structure
+
 ***Directories***
 
 *NEPAL_FLOOD_DATA*/
@@ -56,6 +58,8 @@ Contains the exploratory data analysis (EDA), including data summaries, statisti
 ## Data Sources
 
 The project uses datasets published by the Humanitarian OpenStreetMap Team (HOT) through the Humanitarian Data Exchange (HDX).
+
+link : **https://data.humdata.org/dataset/hot_flood_npl**
 
 Primary Dataset: Nepal Flood 2026 – Flood Affected Area, Bhote Koshi and Trishuli
 
@@ -124,6 +128,8 @@ Identifying inconsistencies, incomplete attributes, and limitations that could a
 The objective was shifted to explore the available data , understand the distribution of different kind of infrastructure types , examine the damage/destroyed buildings, amenities and identify the gaps in the available information.
 
 ### Infrastructure Damage/Destroyed Graph
+
+The graph shows the damaged/destroyed infrasturture affected by the floods.
 
 ![Damage/Destroyed Assessment Distribution](images/Damage_Destroyed_Assessment.png)
 
