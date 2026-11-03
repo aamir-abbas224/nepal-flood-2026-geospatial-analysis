@@ -1,0 +1,216 @@
+{
+    "type": "Collection",
+    "id": "hot_flood_npl",
+    "stac_version": "1.1.0",
+    "description": "OpenStreetMap and Overture Maps vector layers for the area flooded in the 2026 Bhote\nKoshi and Trishuli flood in Nepal, and the ground immediately around it.\n\nThe area of interest is the observed flood extent of 27 August 2026 widened by 200\nmetres. The extent itself was mapped from drone, Landsat, PlanetScope and Sentinel\nimagery and is published here as its own resource, so the water line can be separated\nfrom the margin around it. That margin brings in buildings and roads beside the water,\nso a feature being in this dataset is not evidence that it was flooded or damaged. Clip\nto the Flood Extent resource when you need figures for the water itself.\n\nThe area follows the river from Rasuwagadhi to the Narayani confluence, across Bagmati\nand Gandaki Provinces and the districts of Rasuwa, Nuwakot, Dhading, Gorkha and Chitawan.\n\nEvery layer holds what is standing and what has been lost, so buildings and roads do not\nvanish from a download once mappers record them as destroyed. `status` says Standing,\nDamaged or Destroyed, and the Destroyed and Damaged Features layer gathers everything\nmarked destroyed or damaged in one place.\n\nLayers are rebuilt straight from OpenStreetMap through the day, so they carry volunteer\nwork as it lands. Buildings, schools, health facilities and points of interest also come\nin an Overture version, which fuses Microsoft, Google and OpenStreetMap and reaches\nground volunteers have not mapped yet. Overture follows its own release cycle and will\nnot show mapping done during this response, so for damage work prefer the OpenStreetMap\nlayers and use Overture where their coverage is thin.\n\nMapping task boundaries from the Tasking Manager campaign show where volunteers are\nbeing asked to map. The bridge damage assessment is reported from the ground by\nvolunteers and lists road bridges with their condition after the flood, deck length\nwhere measured, and administrative codes from the same boundaries as the other layers.\n\nFor the wider 1 km river corridor under assessment, use [Nepal Flood 2026 River\nCorridor](https://data.humdata.org/dataset/hot_flood_npl_corridor). AI-scored building\ndamage from post-event imagery is published separately as [Nepal Flood 2026: fAIr\nDamage Assessment](https://data.humdata.org/dataset/hot_flood_npl_buildings_damage).\n\nSubscribe to the dataset for updates as mapping progresses.\n\n- Source: [OpenStreetMap](https://www.openstreetmap.org/), [Overture Maps](https://overturemaps.org/), NAXA and volunteer field reports\n- Part of HOT disaster response exports on HDX by [HOT](https://www.hotosm.org/)\n",
+    "links": [
+        {
+            "rel": "license",
+            "href": "https://opendatacommons.org/licenses/odbl/1-0/",
+            "title": "Open Database License (ODC-ODbL)"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/buildings/hot_flood_npl_buildings_osm_item.json",
+            "type": "application/json",
+            "title": "Buildings"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/destroyed_features/hot_flood_npl_destroyed_features_osm_item.json",
+            "type": "application/json",
+            "title": "Destroyed and Damaged Features"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/roads/hot_flood_npl_roads_osm_item.json",
+            "type": "application/json",
+            "title": "Roads"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/waterways/hot_flood_npl_waterways_osm_item.json",
+            "type": "application/json",
+            "title": "Waterways"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/bridges/hot_flood_npl_bridges_osm_item.json",
+            "type": "application/json",
+            "title": "Bridges"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/education_facilities/hot_flood_npl_education_facilities_osm_item.json",
+            "type": "application/json",
+            "title": "Education Facilities"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/health_facilities/hot_flood_npl_health_facilities_osm_item.json",
+            "type": "application/json",
+            "title": "Health Facilities"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/populated_places/hot_flood_npl_populated_places_osm_item.json",
+            "type": "application/json",
+            "title": "Settlement Names"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/residential_areas/hot_flood_npl_residential_areas_osm_item.json",
+            "type": "application/json",
+            "title": "Residential Areas"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/financial_services/hot_flood_npl_financial_services_osm_item.json",
+            "type": "application/json",
+            "title": "Financial Services"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/points_of_interest/hot_flood_npl_points_of_interest_osm_item.json",
+            "type": "application/json",
+            "title": "Points of Interest"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/open_spaces/hot_flood_npl_open_spaces_osm_item.json",
+            "type": "application/json",
+            "title": "Open Spaces"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/helipads/hot_flood_npl_helipads_osm_item.json",
+            "type": "application/json",
+            "title": "Helipads"
+        },
+        {
+            "rel": "item",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/police_stations/hot_flood_npl_police_stations_osm_item.json",
+            "type": "application/json",
+            "title": "Police Stations"
+        },
+        {
+            "rel": "self",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/combined/hot_flood_npl_osm_metadata.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/NPL_FLOOD/combined/hot_flood_npl_osm_metadata.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "via",
+            "href": "https://data.humdata.org/dataset/hot_flood_npl",
+            "title": "HDX dataset"
+        }
+    ],
+    "item_assets": {
+        "gpkg": {
+            "title": "GeoPackage",
+            "type": "application/zip",
+            "roles": [
+                "data"
+            ]
+        },
+        "kml": {
+            "title": "KML",
+            "type": "application/zip",
+            "roles": [
+                "data"
+            ]
+        },
+        "shp": {
+            "title": "Shapefile",
+            "type": "application/zip",
+            "roles": [
+                "data"
+            ]
+        },
+        "geojson": {
+            "title": "GeoJSON",
+            "type": "application/geo+json",
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "title": "Nepal Flood 2026 Flood Affected Area, Bhote Koshi and Trishuli",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    84.4219815,
+                    27.7214388,
+                    85.4306907,
+                    28.3305113
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2026-10-04T03:58:19Z",
+                    "2026-10-04T03:58:19Z"
+                ]
+            ]
+        }
+    },
+    "license": "ODbL-1.0",
+    "keywords": [
+        "affected area",
+        "aviation",
+        "camp coordination and camp management-cccm",
+        "damage assessment",
+        "economics",
+        "education facilities-schools",
+        "facilities-infrastructure",
+        "flooding",
+        "geodata",
+        "health",
+        "health facilities",
+        "hydrology",
+        "logistics",
+        "points of interest-poi",
+        "populated places-settlements",
+        "protection",
+        "rivers",
+        "roads",
+        "shelter",
+        "transportation"
+    ],
+    "providers": [
+        {
+            "name": "OpenStreetMap (Postpass 2026-10-04T03:58:19Z)",
+            "roles": [
+                "producer",
+                "licensor"
+            ]
+        }
+    ],
+    "summaries": {
+        "oex:category": [
+            "bridges",
+            "buildings",
+            "destroyed_features",
+            "education_facilities",
+            "financial_services",
+            "health_facilities",
+            "helipads",
+            "open_spaces",
+            "points_of_interest",
+            "police_stations",
+            "populated_places",
+            "residential_areas",
+            "roads",
+            "waterways"
+        ],
+        "oex:source": [
+            "osm"
+        ]
+    }
+}
