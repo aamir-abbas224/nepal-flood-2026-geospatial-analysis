@@ -67,6 +67,8 @@ The project uses datasets published by the Humanitarian OpenStreetMap Team (HOT)
 
 link : **https://data.humdata.org/dataset/hot_flood_npl**
 
+The datasets available on the source link are a mix of `JSON` & `CSV` files. The `JSON` files have been converted to `CSV` for consistency.
+
 Primary Dataset: Nepal Flood 2026 – Flood Affected Area, Bhote Koshi and Trishuli
 
 The dataset provides geospatial information covering the flood-affected region and its surrounding areas in Nepal. It includes multiple geographic layers representing infrastructure, facilities, bridges, waterways, and other mapped features.
