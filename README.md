@@ -103,9 +103,10 @@ cd nepal-flood-2026-geospatial-analysis
 pip install pandas numpy matplotlib requests jupyter
 ```
 
-### "How To Run":
+### How to Run
 
-By downloading the notebooks named as "main.ipynb" & "master_data_analysis.ipynb" one can obtain all the raw/processed datasets.  
+1. Open `main.ipynb` and run all cells. This downloads the raw data,creates respective folder along with transforming it, cleaning it, and builds the master dataset(you can choose to skip creating master dataset).
+2. Open `master_data_analysis.ipynb` and run all cells to see the exploratory analysis and charts. 
 
 ## Data Processing
 
