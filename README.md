@@ -33,6 +33,8 @@ The project is organized into three main directories and three supporting files.
 
 ## Project Structure
 
+Please refer below the structure of the project:
+
 ***Directories***
 
 *NEPAL_FLOOD_DATA*/
@@ -41,7 +43,7 @@ Contains the original datasets downloaded from the source, including JSON and CS
 *TRANSFORMED_NEPAL_FLOOD_DATA*/
 Contains datasets extracted from the original files and transformed into CSV format. It also includes an uncleaned master dataset created by combining the individual transformed files.
 
-*CLEAN_NEPAL_FLOOD_DATA*/
+*CLEANED_NEPAL_FLOOD_DATA*/
 Contains individually cleaned CSV datasets and the consolidated CLEAN_MASTER_DATA_FILE.csv.
 
 **Supporting Files**
@@ -93,6 +95,18 @@ The project was developed using *Python and Jupyter Notebook*, with the followin
 
 **Development Environment:** Jupyter Notebook
 
+## ### Installation
+
+```bash
+git clone https://github.com/aamir-abbas224/nepal-flood-2026-geospatial-analysis.git
+cd nepal-flood-2026-geospatial-analysis
+pip install pandas numpy matplotlib requests jupyter
+```
+
+## "How To Run":
+
+By downloading the notebooks named as "main.ipynb" & "master_data_analysis.ipynb" one can obtain all the raw/processed datasets.  
+
 ## Data Processing
 
 The data processing was carried out in multiple stages, starting with downloading the original datasets and eventually preparing them for analysis.
@@ -123,7 +137,7 @@ Below graphs provide the constraints as mention above:
 
 Identifying inconsistencies, incomplete attributes, and limitations that could affect further analysis
 
-![Missing Data Percentage Across DataSet Distribution](images/pct_missing_data.png)
+![Missing data percentage across the dataset](images/pct_missing_data.png)
 
 The objective was shifted to explore the available data , understand the distribution of different kind of infrastructure types , examine the damage/destroyed buildings, amenities and identify the gaps in the available information.
 
@@ -175,6 +189,6 @@ The analysis highlighted the importance of data completeness, consistency, and r
 
 Overall, the project helped establish a foundation for further analysis and demonstrated the importance of understanding the data before attempting to build predictive models.
 
-# Future Work
+## Future Work
 
-The columns in the dataset such as **'coordinates'**  & **"geometry_type"** were left untouched.It would require Python lIbrary such as 'folium' which is used to create interactive web maps and geospatial visualization.
+The columns in the dataset such as **'coordinates'**  & **"geometry_type"** were left untouched.It would require Python library such as 'folium' which is used to create interactive web maps and geospatial visualization.
