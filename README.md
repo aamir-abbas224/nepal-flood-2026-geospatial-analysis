@@ -109,7 +109,7 @@ pip install pandas numpy matplotlib requests jupyter
 
 ### How to Run
 
-1. Open `main.ipynb` and run all cells. This downloads the raw data,creates respective folder along with transforming it, cleaning it, and builds the master dataset (master dataset & individual files of respective types will be downloaded).
+1. Open `main.ipynb` and run all cells. This downloads the raw data, creates the required folders, transforms and cleans the data, and builds the master dataset along with the individual cleaned files.
 2. Open `master_data_analysis.ipynb` and run all cells to see the exploratory analysis and charts. 
 
 ## Data Processing
@@ -196,4 +196,4 @@ Overall, the project helped establish a foundation for further analysis and demo
 
 ## Future Work
 
-The columns in the dataset such as **'coordinates'**  & **"geometry_type"** were left untouched.It would require Python library such as 
+The `coordinates` and `geometry_type` columns were left untouched. Working with them would require a Python library such as [Folium](https://python-visualization.github.io/folium/), which is a powerful geospatial visualizations library used to create interactive web maps .
