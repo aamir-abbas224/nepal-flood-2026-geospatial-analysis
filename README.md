@@ -3,8 +3,11 @@
 - [Nepal Flood 2026: Humanitarian Geospatial Data Analysis](#nepal-flood-2026-humanitarian-geospatial-data-analysis)
   - [Overview](#overview)
   - [Research Objectives](#research-objectives)
+  - [Project Structure](#project-structure)
   - [Data Sources](#data-sources)
   - [Tools and Technologies](#tools-and-technologies)
+    - [Installation](#installation)
+    - [How to Run](#how-to-run)
   - [Data Processing](#data-processing)
   - [Exploratory Data Analysis](#exploratory-data-analysis)
     - [Data Constraint Graph](#data-constraint-graph)
@@ -13,7 +16,8 @@
   - [Key Findings](#key-findings)
   - [Limitations and Challenges](#limitations-and-challenges)
   - [Conclusion](#conclusion)
-- [Future Work](#future-work)
+  - [Future Work](#future-work)
+
 
 ## Overview
 
@@ -25,7 +29,7 @@ Using Python and libraries such as Pandas, NumPy, and Matplotlib, the project in
 
 ## Research Objectives
 
-Initially , the objective was to apply Machine Learning algorithms such as anomaly detection to analyze the integrity and to also predict which areas are effected most and require urgent humanitarian support.
+initially , the objective was to apply Machine Learning algorithms such as anomaly detection to analyze the integrity and to also predict which areas are effected most and require urgent humanitarian support.
 
 Due to limitation in the **dataset**, it was later reduced to exploratory analysis(EDA) to eventually extract and provide as much as relevant and important information as possible.
 
@@ -192,4 +196,4 @@ Overall, the project helped establish a foundation for further analysis and demo
 
 ## Future Work
 
-The columns in the dataset such as **'coordinates'**  & **"geometry_type"** were left untouched.It would require Python library such as 'folium' which is used to create interactive web maps and geospatial visualization.
+The columns in the dataset such as **'coordinates'**  & **"geometry_type"** were left untouched.It would require Python library such as 
