@@ -95,7 +95,7 @@ The project was developed using *Python and Jupyter Notebook*, with the followin
 
 **Development Environment:** Jupyter Notebook
 
-## ### Installation
+### Installation
 
 ```bash
 git clone https://github.com/aamir-abbas224/nepal-flood-2026-geospatial-analysis.git
@@ -103,7 +103,7 @@ cd nepal-flood-2026-geospatial-analysis
 pip install pandas numpy matplotlib requests jupyter
 ```
 
-## "How To Run":
+### "How To Run":
 
 By downloading the notebooks named as "main.ipynb" & "master_data_analysis.ipynb" one can obtain all the raw/processed datasets.  
 
@@ -149,7 +149,7 @@ The graph shows the damaged/destroyed infrasturture affected by the floods.
 
 ## Amenities Recorded
 
-![Amenities Recorded Distribution](images/ameneties_recorded.png)
+![Amenities Recorded Distribution](images/amenities_recorded.png)
 
 ## Key Findings
 
