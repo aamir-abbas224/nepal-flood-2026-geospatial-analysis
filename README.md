@@ -29,7 +29,7 @@ Using Python and libraries such as Pandas, NumPy, and Matplotlib, the project in
 
 ## Research Objectives
 
-initially , the objective was to apply Machine Learning algorithms such as anomaly detection to analyze the integrity and to also predict which areas are effected most and require urgent humanitarian support.
+Initially, the objective was to apply Machine Learning algorithms such as anomaly detection to analyze the integrity and to also predict which areas are affected the most and require urgent humanitarian support.
 
 Due to limitation in the **dataset**, it was later reduced to exploratory analysis(EDA) to eventually extract and provide as much as relevant and important information as possible.
 
@@ -109,7 +109,7 @@ pip install pandas numpy matplotlib requests jupyter
 
 ### How to Run
 
-1. Open `main.ipynb` and run all cells. This downloads the raw data,creates respective folder along with transforming it, cleaning it, and builds the master dataset(you can choose to skip creating master dataset).
+1. Open `main.ipynb` and run all cells. This downloads the raw data,creates respective folder along with transforming it, cleaning it, and builds the master dataset (master dataset & individual files of respective types will be downloaded).
 2. Open `master_data_analysis.ipynb` and run all cells to see the exploratory analysis and charts. 
 
 ## Data Processing
@@ -126,7 +126,7 @@ The downloaded files contained data in different formats, mainly JSON and CSV. T
 
 3. *Data* *Cleaning*
 
-The transformed CSV files were cleaned individually. This involved handling missing values, replacing certain placeholder entries, and removing columns that contained no useful data. The cleaned files were then saved in CLEAN_NEPAL_FLOOD_DATA/.
+The transformed CSV files were cleaned individually. This involved handling missing values, replacing certain placeholder entries, and removing columns that contained no useful data. The cleaned files were then saved in CLEANED_NEPAL_FLOOD_DATA/.
 
 4. *Data* *Consolidation*
 
@@ -134,9 +134,9 @@ After cleaning the individual datasets, they were combined into a single master 
 
 ## Exploratory Data Analysis
 
-After initial review and completion of master dataset. exploratory analysis was performed on it. The objective as stated was to apply ML techniques eventually but it was discovered that due to data constraints it wont be able to produce any meaningful results.
+After initial review and completion of master dataset. exploratory analysis was performed on it. The objective as stated was to apply ML techniques eventually but it was discovered that due to data constraints it won't be able to produce any meaningful results.
 
-Below graphs provide the constraints as mention above: 
+Below graphs provide the constraints as mentiond above: 
 
 ### Data Constraint Graph
 
@@ -144,11 +144,11 @@ Identifying inconsistencies, incomplete attributes, and limitations that could a
 
 ![Missing data percentage across the dataset](images/pct_missing_data.png)
 
-The objective was shifted to explore the available data , understand the distribution of different kind of infrastructure types , examine the damage/destroyed buildings, amenities and identify the gaps in the available information.
+The objective was shifted to explore the available data , understand the distribution of different kinds of infrastructure , examine the damaged/destroyed buildings, amenities and identify the gaps in the available information.
 
 ### Infrastructure Damage/Destroyed Graph
 
-The graph shows the damaged/destroyed infrasturture affected by the floods.
+The graph shows the damaged/destroyed infrastructure affected by the floods.
 
 ![Damage/Destroyed Assessment Distribution](images/Damage_Destroyed_Assessment.png)
 
