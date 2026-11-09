@@ -199,3 +199,5 @@ Overall, the project helped establish a foundation for further analysis and demo
 ## Future Work
 
 The `coordinates` and `geometry_type` columns were left untouched. Working with them would require a Python library such as [Folium](https://python-visualization.github.io/folium/), which is a powerful geospatial visualizations library used to create interactive web maps .
+
+Soon to be added : a application dashboard using `selenium` for instant analysis and viewing of my work.
